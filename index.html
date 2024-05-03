@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
-<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="/css/index.css">
 <body>
 
     <div class="container">
@@ -69,8 +69,8 @@
                 }
                 else {
                     document.getElementById("imgAvatar").style.display = "inline";
-                    document.getElementById("imgAvatar").src = "/error.jpg";
-                    const audio = new Audio("/error.mp3");
+                    document.getElementById("imgAvatar").src = "https://uc18eff23a8e6a980d30eda81c0c.dl.dropboxusercontent.com/cd/0/inline/CSPFm2QhYUL_Omu_VA-rVNQufs7vqDQiiR0rVE-4wkbF7Rj0AJoJoyVMk5-LXEEa_6QJ_XLBe_CLSuj5tUorQWNUxCxCAKZ3PoMxv6K3udm322qj-ep8tDTG0Q2agFaObAKtt4-HHEGThXkomRrPqths/file";
+                    const audio = new Audio("/audio/error.mp3");
                     audio.play();
                     error = true;
                 }
@@ -91,19 +91,19 @@
         n=parseFloat(n);
         if (n == parseFloat(2409) || n == parseFloat(924)) {
             document.getElementById("imgAvatar").style.display = "inline";
-            document.getElementById("imgAvatar").src = "/jose.jpg";
-            const audio = new Audio("/jose.mp3");
+            document.getElementById("imgAvatar").src = "https://uc3d1a8087b7b62ecb8c71220e84.dl.dropboxusercontent.com/cd/0/inline/CSOnpB-G7vFDaZJR8JQXrzT6-4c5AIMMhVJRgPQ9pMwRNNBGNzIWpmQyylsU45nCXM9oSc6kyffWqiQgRXiBhbUQ0hi13IhmtcLHDS5ZRViS781zvlC1QMMrmIDQBEhnnHgk5fwWfwsFMmL7W0q0n6SQ/file";
+            const audio = new Audio("/audio/jose.mp3");
             audio.play();
         }
         else if (n == parseFloat(210) || n ==parseFloat(1002) ) {
             document.getElementById("imgAvatar").style.display = "inline";
-            document.getElementById("imgAvatar").src = "/special.jpeg";
+            document.getElementById("imgAvatar").src = "https://uc469be253a04aeecc3eb124838a.dl.dropboxusercontent.com/cd/0/inline/CSPgGBS6fR3paMa_Q_ER4JdhCVko74tuGA4nE2w9JLgH2mJ63sb9PiTM674oZhqyPy9iiJElxoRgB0fr0DELOTlMiEDH3yDiAfopycz4AZAvNwMHIrDk5MM_1tWFrgprQGO8roxr6COBij38-BIG9baD/file";
         }
         else {
             if (!error) { 
                 document.getElementById("imgAvatar").style.display = "inline";
-                document.getElementById("imgAvatar").src = "/Survivor.jpg";
-                const audio = new Audio("/success.mp3");
+                document.getElementById("imgAvatar").src = "https://ucf25818463473d95f905a1a162f.dl.dropboxusercontent.com/cd/0/inline/CSPVGSBxGBafgw_nJqb_UJEYWqGzBMjOPQaKgzDv5tB3r-VLIdqbHWIn9bRi6xjN0BcNAT_FZUyVwjUxRuLNcNdyJUUXo9WUwUp0maq8VJjTWdXHGHXwPe_dlVPN-8YaJ58ZolNpUpZHnMXjDbJePTDF/file";
+                const audio = new Audio("/audio/success.mp3");
                 audio.play();
                 console.log("paso por aqui")
             }
